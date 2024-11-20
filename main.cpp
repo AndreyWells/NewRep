@@ -8,7 +8,9 @@ vector<vector<string>> arr; //Создаем двумерный массив с�
 ifstream in("test.txt"); // Читаем файл
 
 void readFile() {
+    if in.is_open(){
 
+    }
 }
 void sortLines() {
 
