@@ -22,6 +22,11 @@ void writeFile() {
     for (int i = 0; i < arr.size(); i++) {
         sstream << arr[i][0] << " " << arr[i][1] << endl;
     }
+    ofstream out_file("output.txt", ios::binary);
+    out_file.imbue(locale(""));
+    string data = sstream.str();
+    out_file.write(data.c_str(), data.size());
+    out_file.close();
 }
 
 int main()
