@@ -15,8 +15,9 @@ void sortLines() {
 
 }
 void printLines() {
-
-}
+    for (auto& row : arr) { //Выводим "значения" по "ключам" после сортировки
+        cout << row[1] << endl;
+}}
 void writeFile() {
     stringstream sstream;
     for (int i = 0; i < arr.size(); i++) {
