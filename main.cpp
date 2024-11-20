@@ -3,8 +3,10 @@
 #include <fstream>
 #include <vector>
 #include <algorithm>
-
 using namespace std;
+vector<vector<string>> arr; //Создаем двумерный массив строк
+ifstream in("test.txt"); // Читаем файл
+
 void readFile() {
 
 }
@@ -21,8 +23,6 @@ void writeFile() {
 int main()
 {
     SetConsoleOutputCP(CP_UTF8);
-    vector<vector<string>> arr; //Создаем двумерный массив строк
-    ifstream in("test.txt"); // Читаем файл
     readFile();
     sortLines();
     printLines();
