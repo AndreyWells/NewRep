@@ -11,7 +11,7 @@ void readFile() {
 
 }
 void sortLines() {
-
+sort(arr.begin(), arr.end()); // Сортируем массив
 }
 void printLines() {
 
