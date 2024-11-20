@@ -16,6 +16,9 @@ void writeFile() {
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    readFile();
+    sortLines();
+    printLines();
+    writeFile();
     return 0;
 }
