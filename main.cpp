@@ -14,8 +14,9 @@ void sortLines() {
 
 }
 void printLines() {
-
-}
+    for (auto& row : arr) {
+        cout << row[1] << endl;
+}}
 void writeFile() {
 
 }
