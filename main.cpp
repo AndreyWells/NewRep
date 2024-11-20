@@ -12,7 +12,7 @@ void readFile() {
 
 }
 void sortLines() {
-
+sort(arr.begin(), arr.end()); // Сортируем массив
 }
 void printLines() {
     for (auto& row : arr) { //Выводим "значения" по "ключам" после сортировки
